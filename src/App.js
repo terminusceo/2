@@ -274,6 +274,17 @@ function App() {
               MINT OPEN
             </s.TextDescription>
 
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary)",
+              }}
+            >
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+            </s.TextTitle>
+
 
 
 
@@ -342,16 +353,7 @@ function App() {
                   <>
 
 
-                    <s.TextTitle
-                      style={{
-                        textAlign: "center",
-                        fontSize: 50,
-                        fontWeight: "bold",
-                        color: "var(--primary)",
-                      }}
-                    >
-                      {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-                    </s.TextTitle>
+
 
 
                     {/* <s.TextTitle
