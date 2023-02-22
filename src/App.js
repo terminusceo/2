@@ -164,8 +164,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 100) {
+      newMintAmount = 100;
     }
     setMintAmount(newMintAmount);
   };
@@ -416,7 +416,7 @@ function App() {
                         color: "var(--primary)",
                       }}
                     >
-                      {(mintAmount * CONFIG.DISPLAY_COST).toFixed(4)} ETH
+                      {(mintAmount * CONFIG.DISPLAY_COST).toFixed(3)} ETH
                     </s.TextDescription>
 
                     <s.SpacerSmall />
