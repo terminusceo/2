@@ -286,6 +286,14 @@ function App() {
             </s.TextTitle>
 
 
+            <s.TextTitle
+              style={{ textAlign: "center", color: "var(--accent-text)" }}
+            >
+              {CONFIG.SYMBOL} price: {CONFIG.DISPLAY_COST}{" "}
+              {CONFIG.NETWORK.SYMBOL}.
+            </s.TextTitle> 
+
+
 
 
             <span
@@ -356,12 +364,7 @@ function App() {
 
 
 
-                    {/* <s.TextTitle
-                      style={{ textAlign: "center", color: "var(--accent-text)" }}
-                    >
-                      {CONFIG.SYMBOL} price: {CONFIG.DISPLAY_COST}{" "}
-                      {CONFIG.NETWORK.SYMBOL}.
-                    </s.TextTitle> */}
+
                     <s.TextDescription
                       style={{
                         textAlign: "center",
