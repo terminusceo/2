@@ -421,7 +421,7 @@ function App() {
                         color: "var(--primary)",
                       }}
                     >
-                      {(mintAmount * CONFIG.DISPLAY_COST).toFixed(3)} ETH
+                      {(mintAmount * CONFIG.DISPLAY_COST).toFixed(4)} ETH
                     </s.TextDescription>
 
                     <s.SpacerSmall />
